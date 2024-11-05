@@ -19,10 +19,6 @@ const naslov = data.naslov;
 const autor = data.autor;
 const g_izdanja = data.g_izdanja;
 const izdavac = data.izdavac;
-console.log(data.naslov);
-console.log(data.autor);
-console.log(data.g_izdanja);
-console.log(data.izdavac);
     return response.send("Dodavanje knjige: "+naslov+ " "+autor+" "+g_izdanja+" "+izdavac);
 });
 
