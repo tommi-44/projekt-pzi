@@ -1,0 +1,75 @@
+/* Osnovni stilovi za navigaciju */
+nav {
+    background-color: #333; /* Tamna pozadina */
+    position: fixed; /* Ova opcija drži navigaciju na vrhu */
+    width: 100%; /* Navigacija zauzima cijeli širinu ekrana */
+    top: 0;
+    left: 0;
+    padding: 10px 0; /* Razmak od rubova */
+    z-index: 1000; /* Osigurava da navigacija bude iznad ostalog sadržaja */
+}
+
+/* Navigacijske stavke */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centriranje stavki */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Hover efekt za poveznice */
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Stil za tipku za otvaranje navigacije */
+.menu-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+/* Stil za tipku kada je navigacija otvorena */
+.nav-open {
+    background-color: #444; /* Svjetlija pozadina kada je aktivna */
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; /* Elegantni Google font */
+    font-size: 48px; /* Veličina fonta koja je čitljiva i profesionalna */
+    color: #333333; /* Tamno siva boja za ozbiljan izgled */
+    text-align: center; /* Poravnaj tekst u sredinu */
+    line-height: 1.4; /* Povećaj razmak između linija radi boljeg čitanja */
+    margin-top: 100px; /* Dodaj razmak od vrha stranice */
+    letter-spacing: 1px; /* Blagi razmak između slova za čitljivost */
+    font-weight: 400; /* Normalna težina fonta */
+    text-transform: capitalize; /* Prvo slovo svakog riječi veliko */
+    border-bottom: 2px solid #555555; /* Dodaj profesionalnu liniju ispod teksta */
+    padding-bottom: 10px; /* Razmak između teksta i linije */
+    transition: all 0.3s ease; /* Glatka animacija pri hoveru */
+}
+
+/* Hover efekt za profesionalni izgled */
+h1:hover {
+    color: #2a2a2a; /* Tamnija siva boja pri hoveru */
+    border-color: #2a2a2a; /* Promjena boje donje linije */
+    transform: translateY(-3px); /* Blagi pomak prema gore */
+}
+
